@@ -1,0 +1,97 @@
+.gift-search {
+	font-family: Arial, Simsun
+}
+
+.gift-search .exchangeBtn {
+	font-family: Arial, 'Microsoft Yahei'
+}
+
+.gift-list .cg-col-1 {
+	width: 125px
+}
+
+.gift-list .cg-col-2 {
+	width: 75px
+}
+
+.gift-list .cg-col-3 {
+	width: 80px
+}
+
+.gift-list .cg-col-4 {
+	width: 100px
+}
+
+.gift-list .cg-col-5 {
+	width: 100px
+}
+
+.gift-list .cg-col-6 {
+	width: 200px
+}
+
+.gift-list .ui-table-span {
+	padding: 15px 10px
+}
+
+.gift-search .giftSearch-label, .gift-search .form-error {
+	line-height: 30px
+}
+
+.gift-search .input {
+	margin: 0 10px 0 5px;
+	padding: 5px 6px;
+	border-width: 2px
+}
+
+.gift-search .exchangeBtn {
+	width: 78px;
+	font-size: 16px
+}
+
+.gift-search .form-error {
+	margin-left: 10px
+}
+
+.gift-history .cg-col-1 {
+	width: 105px
+}
+
+.gift-history .cg-col-2 {
+	width: 345px
+}
+
+.gift-history .cg-col-3 {
+	width: 100px
+}
+
+.gift-history .cg-col-4 {
+	width: 100px
+}
+
+.gift-history .goods-info {
+	width: 244px
+}
+
+.ui-dialog-gift-table {
+	position: relative;
+	margin: 10px 0 -10px;
+	height: 305px;
+	overflow-y: auto
+}
+
+.ui-dialog-gift-table .cg-col-1 {
+	width: 50px
+}
+
+.ui-dialog-gift-table .cg-col-2 {
+	width: 95px
+}
+
+.ui-dialog-gift-table .cg-col-3 {
+	width: 350px
+}
+
+.ui-dialog-gift-table .goods-info {
+	width: 249px
+}

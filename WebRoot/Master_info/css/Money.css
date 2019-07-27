@@ -1,0 +1,301 @@
+.rechargeSuccess .rechargeSuccess-type, .rechargeSuccess .rechargeSuccess-span
+	{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.recharge .recharge-account, .recharge .recharge-input {
+	color: #3a3333
+}
+
+.rechargeSuccess .rechargeSuccess-tit {
+	color: #6B2
+}
+
+.accountBalance .accountBalance-value, .recharge .recharge-amount,
+	.rechargeFail .rechargeFail-tit {
+	color: #F05030
+}
+
+.accountBalance .accountBalance-type, .recharge {
+	color: #6A6666
+}
+
+.accountNotice {
+	color: #9A9999
+}
+
+.accountBalance, .accountNotice, .recharge, .rechargeSuccess .rechargeSuccess-info,
+	.rechargeSuccess .rechargeSuccess-nav, .rechargeFail .rechargeFail-info
+	{
+	font-family: Arial, Simsun
+}
+
+.recharge .nextStepBtn {
+	font-family: Arial, 'Microsoft Yahei'
+}
+
+.accountBalance {
+	padding: 15px 0
+}
+
+.accountBalance .rechargeBtn, .accountBalance .withdrawalsBtn {
+	width: 62px
+}
+
+.accountBalance .withdrawalsBtn {
+	margin-left: 10px
+}
+
+.accountBalance .withdrawalsBtn:hover {
+	background-color: #F05030;
+	border-color: #F05030;
+	color: #FFF
+}
+
+.accountBalance .accountBalance-info {
+	width: 190px;
+	vertical-align: top
+}
+
+.accountBalance .accountBalance-value {
+	font: 700 18px/26px Verdana, Arial
+}
+
+.accountBalance .accountBalance-setting {
+	margin: 25px 35px 15px 0
+}
+
+.accountBalance .accountBalance-setting .icon-phone, .accountBalance .accountBalance-setting .icon-pass
+	{
+	margin: -2px 0 0 -9px
+}
+
+.accountNotice {
+	padding-top: 15px;
+	border-top: 1px solid #F6F3F3;
+	line-height: 20px
+}
+
+.accountDetails {
+	position: relative
+}
+
+.accountDetails .historySelect {
+	position: absolute;
+	right: 0;
+	top: 8px;
+	width: 100px;
+	height: 24px
+}
+
+.accountDetails .ui-table-span {
+	word-break: break-all
+}
+
+.incomeAndPay .cg-col-1 {
+	width: 110px
+}
+
+.incomeAndPay .cg-col-2 {
+	width: 135px
+}
+
+.incomeAndPay .cg-col-4 {
+	width: 140px
+}
+
+.incomeAndPay .cg-col-3, .incomeAndPay .cg-col-5, .incomeAndPay .cg-col-6
+	{
+	width: 90px
+}
+
+.freezingDetails .cg-col-1 {
+	width: 235px
+}
+
+.freezingDetails .cg-col-2 {
+	width: 120px
+}
+
+.freezingDetails .cg-col-3 {
+	width: 90px
+}
+
+.freezingDetails .cg-col-4 {
+	width: 140px
+}
+
+.withdrawalsRecord .cg-col-1 {
+	width: 235px
+}
+
+.withdrawalsRecord .cg-col-2 {
+	width: 90px
+}
+
+.withdrawalsRecord .cg-col-3 {
+	width: 120px
+}
+
+.withdrawalsRecord .cg-col-4 {
+	width: 140px
+}
+
+.recharge {
+	padding-bottom: 25px
+}
+
+.recharge .recharge-row {
+	margin-bottom: 5px;
+	min-height: 40px;
+	_height: 40px;
+	line-height: 40px
+}
+
+.recharge .recharge-type {
+	margin-right: 15px;
+	width: 110px;
+	text-align: right
+}
+
+.recharge .recharge-span {
+	width: 705px
+}
+
+.recharge .recharge-account {
+	font-size: 18px;
+	font-family: Verdana, Arial
+}
+
+.recharge .recharge-amount {
+	font-size: 18px;
+	font-family: Arial
+}
+
+.recharge .recharge-input {
+	margin-right: 10px;
+	padding: 8px 6px;
+	width: 116px;
+	height: 22px;
+	font: 18px/22px Arial;
+	text-align: center
+}
+
+.recharge .recharge-bankSection {
+	overflow: hidden
+}
+
+.recharge .recharge-bankItem {
+	padding: 0 20px 20px 0;
+	width: 155px;
+	height: 38px
+}
+
+.recharge .recharge-bankItem .radio {
+	margin: 14px 5px 0 0
+}
+
+.recharge .recharge-bankItem .rechare-bankLogo {
+	width: 130px;
+	height: 36px;
+	overflow: hidden;
+	border: 1px solid #DDD;
+	line-height: 0;
+	text-align: center
+}
+
+.recharge .recharge-bankItem .rechare-bankLogo .vm-line {
+	height: 36px
+}
+
+.recharge .showPayTypeCtrl {
+	margin: 0 0 15px 18px
+}
+
+.recharge .form-error {
+	margin-left: 10px
+}
+
+.cash .recharge-row {
+	padding: 5px 0;
+	min-height: 30px;
+	_height: 30px;
+	line-height: 30px
+}
+
+.cash .cash-amount {
+	font-size: 18px
+}
+
+.cash .button-light-medium, .cash .button-dark-medium {
+	margin: 10px 10px 0 0;
+	vertical-align: top
+}
+
+.rechargeSuccess {
+	padding: 70px 0
+}
+
+.rechargeSuccess .rechargeSuccess-tit {
+	font-size: 18px
+}
+
+.rechargeSuccess .rechargeSuccess-info {
+	padding-top: 10px;
+	line-height: 28px
+}
+
+.rechargeSuccess .rechargeSuccess-nav {
+	padding-top: 45px
+}
+
+.rechargeSuccess .rechargeSuccess-nav span {
+	color: #DDDADA
+}
+
+.rechargeSuccess .rechargeSuccess-type {
+	margin-right: 10px;
+	width: 100px;
+	text-align: right
+}
+
+.rechargeSuccess .rechargeSuccess-span {
+	width: 230px;
+	text-align: left
+}
+
+.rechargeFail {
+	padding: 60px
+}
+
+.rechargeFail .rechargeFail-tit {
+	font-size: 18px;
+	text-align: center
+}
+
+.rechargeFail .rechargeFail-tit .icon-fail {
+	margin-right: 10px
+}
+
+.rechargeFail .rechargeFail-info {
+	line-height: 28px
+}
+
+.rechargeFail .other-question {
+	padding-top: 45px
+}
+
+.ui-dialog-section .cash-item {
+	padding-top: 10px
+}
+
+.ui-dialog-section .cash-key {
+	width: 120px;
+	text-align: right
+}
+
+.ui-dialog-section .cash-val {
+	width: 180px
+}

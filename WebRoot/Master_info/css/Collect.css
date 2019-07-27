@@ -1,0 +1,59 @@
+.goodsCollect .cg-col-1, .voucherCollect .cg-col-1, .shopCollect .cg-col-1
+	{
+	width: 485px
+}
+
+.goodsCollect .cg-col-2, .voucherCollect .cg-col-2, .shopCollect .cg-col-2
+	{
+	width: 100px
+}
+
+.goodsCollect .cg-col-3, .voucherCollect .cg-col-3, .shopCollect .cg-col-3
+	{
+	width: 120px
+}
+
+.goodsCollect .goods-image, .voucherCollect .goods-image, .shopCollect .goods-image
+	{
+	width: 118px;
+	height: 118px
+}
+
+.goodsCollect .goods-info, .voucherCollect .goods-info, .shopCollect .goods-info
+	{
+	width: 324px
+}
+
+.goodsCollect .addCartBtn, .voucherCollect .addCartBtn, .shopCollect .addCartBtn
+	{
+	margin: 5px 0;
+	width: 82px
+}
+
+.goodsCollect .addCartBtn a, .voucherCollect .addCartBtn a, .shopCollect .addCartBtn a,
+	.goodsCollect .addCartBtn a:hover, .voucherCollect .addCartBtn a:hover,
+	.shopCollect .addCartBtn a:hover {
+	color: #fff
+}
+
+.voucherCollect .goods-image, .shopCollect .goods-image {
+	width: 148px;
+	height: 98px
+}
+
+.voucherCollect .goods-info, .shopCollect .goods-info {
+	width: 294px
+}
+
+.shopCollect .cg-col-2 {
+	width: 220px
+}
+
+.shopCollect .goods-image {
+	width: 148px;
+	height: 98px
+}
+
+.shopCollect .goods-info {
+	width: 294px
+}

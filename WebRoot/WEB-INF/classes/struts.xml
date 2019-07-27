@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<package  name="default" extends="struts-default">
+		<action name="RegistryAction" class="com.ssh.actions.RegistryAction">
+    		<result name="success">/index.jsp</result>
+    		<result name="login">/Login.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="Master_tableAction" class="com.ssh.actions.Master_tableAction">
+    		<result name="success">/Master_info/Personal_data.jsp</result>		
+    		<result name="userinfo">/Master_info/Userinfo.jsp</result>
+    		<result name="updatedata" type="redirectAction">/Master_tableAction.action</result>
+    		<result name="Userbind">/Master_info/Userhead.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="Location_tableAction" class="com.ssh.actions.Location_tableAction">
+    		<result name="success">/Master_info/Useraddress.jsp</result>
+    		<result name="operation" type="redirectAction">/Location_tableAction.action</result>
+    		<result name="updatedata">/Master_info/UseraddAddress.jsp</result>
+    		<result name="addsuccess">/Master_info/Maintainsuccess.jsp</result>
+    		<result name="addfalse">/Master_info/Maintainfalse.jsp</result>
+    		<result name="updateSessionCity">/Master_info/UseraddAddress1.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="FinanceAction" class="com.ssh.actions.FinanceAction">
+    		<result name="success">/Finance.jsp</result>
+    		<result name="Coupon">/Master_info/Coupon.jsp</result>
+    		<result name="updatesuccess">/Master_info/Maintainsuccess.jsp</result>
+    		<result name="BeangetBeanList">/Master_info/BeangetBeanList.jsp</result>
+    		<result name="Account">/Master_info/Account.jsp</result>
+    		<result name="input">/Master_info/Maintainfalse.jsp</result>
+    	</action>
+    	<action name="BroadHeadingAction" class="com.ssh.actions.BroadHeadingAction">
+    		<result name="success">/BroadHeading.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="SubclassAction" class="com.ssh.actions.SubclassAction">
+    		<result name="success">/Subclass.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="StoreAction" class="com.ssh.actions.StoreAction">
+    		<result name="success">/Store_info/index.jsp</result>
+    		<result name="input">Store.jsp</result>
+    	</action>
+    	<action name="ServiceQQAction" class="com.ssh.actions.ServiceQQAction">
+    		<result name="success">/ServiceQQ.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="ProductAction" class="com.ssh.actions.ProductAction">
+    		<result name="success">/Product.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	
+    	
+    	<action name="ProductPictureAction" class="com.ssh.actions.ProductPictureAction">
+    		<result name="success">/ProductPicture.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    		<action name="StoreJurisdictionAction" class="com.ssh.actions.StoreJurisdictionAction">
+    		<result name="success">/Store_info/Storebackstage.jsp</result>
+    		<result name="input">/Store_info/index.jsp</result>
+    	</action>
+    	<action name="StoreAccountAction" class="com.ssh.actions.StoreAccountAction">
+    		<result name="success">/Store_info/Storebackstage.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="PostalServiceAction" class="com.ssh.actions.PostalServiceAction">
+    		<result name="success">/PostalService.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="DeliverGoodsAction" class="com.ssh.actions.DeliverGoodsAction">
+    		<result name="success">/DeliverGoods.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="PaymentServiceAction" class="com.ssh.actions.PaymentServiceAction">
+    		<result name="success">/PaymentService.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="PaymentAction" class="com.ssh.actions.PaymentAction">
+    		<result name="success">/Payment.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="StroeAnnouncementAction" class="com.ssh.actions.StroeAnnouncementAction">
+    		<result name="success">/StroeAnnouncement.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="OrderProductAction" class="com.ssh.actions.OrderProductAction">
+    		<result name="success">/OrderProduct.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="ProductMessagesAction" class="com.ssh.actions.ProductMessagesAction">
+    		<result name="success">/ProductMessages.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="ForumAction" class="com.ssh.actions.ForumAction">
+    		<result name="success">/Master_info/Forum.jsp</result>
+    		<result name="addsuccess" type="redirectAction">ForumAction.action</result>
+    		<result name="addfalse">/Master_info/Maintainfalse.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="ForumMessagesAction" class="com.ssh.actions.ForumMessagesAction">
+    		<result name="success">/ForumMessages.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<action name="IndentAction" class="com.ssh.actions.IndentAction">
+    		<result name="success">/Indent.jsp</result>
+    		<result name="Ordershop">/Master_info/Ordershop.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	
+    	
+    	<action name="CollectAction" class="com.ssh.actions.CollectAction">
+    		<result name="success">/Collect.jsp</result>
+    		<result name="Productfavorite">/Master_info/Productfavorite.jsp</result>
+    		<result name="deleteSuccess" type="redirectAction">CollectAction!queryCollectByMobile_phone</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<!-- 浏览商品 -->
+    	<action name="Product" class="com.ssh.actions.Product">
+    		<result name="success">/Browse_products.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<!-- 单品详细 -->
+    	<action name="queryProductDetilsByProductId" class="com.ssh.actions.ProductDetilsAction">
+    		<result name="success">/ProductDetils.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<!-- 套装详细 -->
+    	<action name="queryProductDetils_ProductSuitProduct_name" class="com.ssh.actions.ProductDetilsAction" method="queryProductDetils_ProductSuitProduct_name">
+    		<result name="success">/ProductDetils.jsp</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<!-- 购物车 -->
+    	<action name="queryShoppingCartView" class="com.ssh.actions.ShoppingCartAction">
+    		<result name="success">/ShoppingCart.jsp</result>
+    		<result name="deleteShoppingCart" type="redirectAction">/queryShoppingCartView.action</result>
+    		<result name="input">index.jsp</result>
+    	</action>
+    	<!-- 个人资料  头像处理 -->
+    	<action name="UplodHead_portraitAction" class="com.ssh.actions.UplodHead_portraitAction">
+			<interceptor-ref name="fileUpload">     
+	            <!-- 配置允许上传的文件类型，多个用","分隔 -->                      
+	            <param name="allowedTypes">                          
+	                image/bmp,image/png,image/gif,image/jpeg,
+	                image/jpg,image/x-png,image/pjpeg     
+	            </param>                        
+	            <param name="maximumSize">2097153</param>     
+	        </interceptor-ref>
+			<interceptor-ref name="defaultStack" />
+			<result name="success">/Master_info/Userhead.jsp</result>
+			<result name="input">/Master_info/Userhead.jsp</result>
+			<result name="nologin">/Login.jsp</result>
+		</action>
+		<!-- 顾客个人 安全设置 -->
+		<action name="SafeAction" class="com.ssh.actions.SafeAction">
+    		<result name="success">/Master_info/Safe.jsp</result>
+    		<result name="input">/Login.jsp</result>
+    		<result name="changePassword">/Master_info/Maintainsuccess.jsp</result>
+    	</action>
+	</package>
+</struts>

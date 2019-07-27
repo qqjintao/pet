@@ -1,0 +1,111 @@
+.account-bind:after, .account-bind-head:after, .account-bind-body:after
+	{
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	line-height: 0;
+	content: '\20'
+}
+
+.account-bind, .account-bind-head, .account-bind-body {
+	*display: table;
+	*zoom: 1
+}
+
+.account-bind-icon, .account-bind-name, .account-bind-state,
+	.account-bind-oper, .bind-logo {
+	display: inline;
+	float: left
+}
+
+.account-bind-ctrl, .account-bind-sites {
+	display: inline;
+	float: right
+}
+
+.account-bind {
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	background-color: #F6F3F3;
+	font-family: 'Arial', 'Simsun'
+}
+
+.account-bind-active .account-bind-body {
+	display: block
+}
+
+.account-bind-active .account-bind-state {
+	display: none
+}
+
+.account-bind-head {
+	line-height: 24px
+}
+
+.account-bind-icon {
+	margin-right: 10px;
+	width: 24px;
+	height: 24px;
+	background: url(/userInfo/static/global/images/build/bind_icon.png) 0 0
+		no-repeat
+}
+
+.bind-alipay-icon {
+	background-position: 0 0
+}
+
+.bind-weibo-icon {
+	background-position: 0 -34px
+}
+
+.bind-qq-icon {
+	background-position: 0 -68px
+}
+
+.bind-wexin-icon {
+	background-position: 0 -102px
+}
+
+.account-bind-name {
+	margin-right: 10px;
+	min-width: 100px;
+	_width: 100px;
+	_white-space: nowrap
+}
+
+.account-bind-body {
+	display: none;
+	padding: 20px 15px 15px
+}
+
+.account-bind-sites {
+	padding-right: 15px
+}
+
+.bind-logo {
+	border: 1px solid #E7E4E4
+}
+
+.bing-process-icon {
+	margin: 16px 10px;
+	width: 30px;
+	height: 18px;
+	background-position: 0 -136px
+}
+
+.account-bind-btn {
+	margin-top: 10px;
+	font-size: 16px;
+	font-family: 'Arial', 'Microsoft Yahei'
+}
+
+.account-bind-success {
+	padding-top: 11px
+}
+
+.account-bind-success .icon-ok {
+	position: relative;
+	top: -3px;
+	margin-right: 10px
+}

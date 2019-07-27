@@ -1,0 +1,474 @@
+.userInfo .basicInfo-birthdayBox {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.pet-category .pet-search-list .pet-name {
+	color: #3a3333
+}
+
+.userInfo .darkBtn, .userInfo .darkBtn:hover, .pet-category .hot-pet,
+	.pet-category .pet-name {
+	color: #09C
+}
+
+.pet-category .pet-search-list .pet-name:hover, .pet-category .hot-pet:hover,
+	.pet-category .pet-name:hover {
+	color: #F05030
+}
+
+.userInfo .basicInfo-type {
+	color: #6A6666
+}
+
+.userInfo {
+	font-family: Arial, Simsun
+}
+
+.userInfo .submitBtn, .userInfo .uploadAvator-button .button-light-medium,
+	.userInfo .uploadAvator-button .button-dark-medium {
+	font-family: Arial, 'Microsoft Yahei'
+}
+
+.userInfo .userAvator-zoom {
+	background: url(/userInfo/static/global/images/src/sprites.png) 0 0
+		no-repeat
+}
+
+.userInfo .userInfo-selectPic {
+	position: relative
+}
+
+.userInfo .userInfo-upload {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 100px;
+	height: 30px;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	cursor: pointer
+}
+
+.userInfo .userInfo-upPreview {
+	margin: 10px 0;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	background-color: #DDDADA
+}
+
+.userInfo .darkBtn, .userInfo .submitBtn {
+	margin-right: 5px
+}
+
+.userInfo .darkBtn {
+	font-size: 12px
+}
+
+.userInfo .submitBtn {
+	font-size: 16px
+}
+
+.userInfo .basicInfo {
+	padding: 15px 0
+}
+
+.userInfo .basicInfo-row {
+	padding: 5px 0;
+	line-height: 30px
+}
+
+.userInfo .basicInfo-type {
+	margin-right: 15px;
+	width: 155px;
+	line-height: 30px;
+	text-align: right
+}
+
+.userInfo .basicInfo-type .icon-mail, .userInfo .basicInfo-type .icon-phone
+	{
+	vertical-align: top;
+	*margin-top: -8px
+}
+
+.userInfo .basicInfo-cell {
+	width: 660px
+}
+
+.userInfo .basicInfo-sex {
+	width: 60px
+}
+
+.userInfo .basicInfo-interest {
+	width: 190px
+}
+
+.userInfo .basicInfo-userName, .userInfo .basicInfo-birthday, .userInfo .basicInfo-qq
+	{
+	width: 126px
+}
+
+.userInfo .basicInfo-prov, .userInfo .basicInfo-city {
+	margin-right: 10px;
+	width: 90px
+}
+
+.userInfo .basicInfo-address {
+	width: 296px
+}
+
+.userInfo .basicInfo-career {
+	width: 140px
+}
+
+.userInfo .basicInfo-signature {
+	width: 496px;
+	height: 56px
+}
+
+.userInfo .basicInfo-birthdayBox {
+	position: relative
+}
+
+.userInfo .basicInfo-birthdayBox .icon-data {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.userInfo .form-error {
+	margin-left: 5px
+}
+
+.userInfo .userAvator {
+	padding: 20px 0 100px
+}
+
+.userInfo .userAvator-head {
+	line-height: 32px
+}
+
+.userInfo .userAvator-avator {
+	position: relative;
+	margin: 0 20px 0 50px;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%
+}
+
+.userInfo .userAvator-section {
+	width: 660px
+}
+
+.userInfo .userAvator-item {
+	position: relative;
+	z-index: 1;
+	margin: 0 20px 20px 0;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	cursor: pointer
+}
+
+.userInfo .userAvator-zoom {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 100px;
+	height: 100px;
+	background-position: 0 -280px
+}
+
+.userInfo .userAvator-selectItem {
+	cursor: default
+}
+
+.userInfo .userAvator-selectItem .userAvator-zoom {
+	display: block
+}
+
+.userInfo .uploadAvator-button .button-light-medium, .userInfo .uploadAvator-button .button-dark-medium
+	{
+	margin-top: 40px;
+	font-size: 16px
+}
+
+.choose-pet-list .choosePet-item {
+	margin-right: 5px;
+	cursor: pointer
+}
+
+.choose-pet-list .choosePet-item:hover .delChoosePets {
+	visibility: visible
+}
+
+.choose-pet-list .delChoosePets {
+	visibility: hidden;
+	padding: 0 5px;
+	font-size: 15px;
+	font-weight: 700
+}
+
+.pet-category {
+	height: 334px;
+	overflow: hidden
+}
+
+.pet-category .ui-tab-head, .pet-category .ui-tab-btn {
+	height: 32px;
+	line-height: 32px
+}
+
+.pet-category .ui-tab-btn {
+	min-width: 40px;
+	_width: 40px
+}
+
+.pet-category .pet-search-from {
+	position: relative;
+	width: 168px;
+	border: 1px solid #DDDADA
+}
+
+.pet-category .pet-search-area {
+	height: 28px;
+	overflow: hidden
+}
+
+.pet-category .pet-search-area .input {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 148px;
+	border: 0
+}
+
+.pet-category .pet-search-area .icon-search {
+	margin-top: -1px
+}
+
+.pet-category .pet-search-list {
+	position: absolute;
+	left: -1px;
+	top: 100%;
+	margin-top: -1px;
+	width: 100%;
+	height: 100px;
+	overflow-y: auto;
+	background-color: #fff;
+	border: 1px solid #DDDADA
+}
+
+.pet-category .pet-search-list .pet-name {
+	float: none;
+	display: block;
+	padding: 0 10px;
+	width: auto;
+	height: 20px;
+	overflow: hidden;
+	line-height: 20px;
+	white-space: nowrap
+}
+
+.pet-category .pet-search-list .pet-name:hover {
+	background-color: #F6F3F3
+}
+
+.pet-category .hot-pet {
+	margin-right: 10px;
+	line-height: 30px
+}
+
+.pet-category .pet-list {
+	margin: 20px 0 10px;
+	height: 240px;
+	overflow-y: auto
+}
+
+.pet-category .pet-name {
+	width: 24.9999%;
+	line-height: 24px
+}
+
+#uploading {
+	display: none;
+	padding-top: 35px
+}
+
+#upImgArea {
+	display: none;
+	margin-top: 10px
+}
+
+#upImgView {
+	float: left;
+	width: 350px
+}
+
+#upImgView .head_box {
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+	width: 322px;
+	height: 290px;
+	overflow: hidden
+}
+
+#upImgView #allBox {
+	width: 300px;
+	height: 255px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: #CCC 1px solid;
+	overflow: hidden
+}
+
+#upImgView #picBox {
+	font-family: "Microsoft YaHei";
+	position: relative;
+	width: 300px;
+	height: 255px;
+	-moz-user-select: none;
+	overflow: hidden
+}
+
+#upImgView #sourceimg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 90
+}
+
+#upImgView #picViewOuter {
+	position: relative;
+	width: 300px;
+	height: 225px;
+	overflow: hidden;
+	text-align: left;
+	background: #fff url(/userInfo/static/global/images/build/cj_bj.gif) 50%
+		50%
+}
+
+#upImgView #sliderOuter {
+	width: 292px;
+	padding-left: 8px;
+	height: 25px;
+	margin-top: 5px;
+	background: url(/userInfo/static/global/images/build/cj_public.gif) 0
+		11px no-repeat
+}
+
+#upImgView #slider {
+	position: relative;
+	margin: auto;
+	float: left;
+	width: 124px;
+	height: 25px
+}
+
+#upImgView #sliderBlock {
+	width: 24px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	left: 50px;
+	cursor: pointer;
+	font-size: 10px;
+	font-family: "Times New Roman";
+	text-align: center;
+	background: url(/userInfo/static/global/images/build/cj_public.gif) 0
+		-9px no-repeat;
+	overflow: hidden
+}
+
+#upImgView #picMask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 91;
+	width: 100%;
+	empty-cells: show
+}
+
+#upImgView #picMask td {
+	font-size: 1px;
+	line-height: 1px
+}
+
+#upImgView #picMask td, #upImgView #noscript, #upImgView #runSub {
+	background: #000;
+	filter: alpha(opacity = 50);
+	-moz-opacity: .5;
+	-khtml-opacity: .5;
+	opacity: .5
+}
+
+#upImgView #picMask td#pP {
+	width: 110px;
+	height: 72px
+}
+
+#upImgView #picMask td#pO {
+	width: 96px;
+	height: 96px;
+	max-width: 200px;
+	max-height: 200px;
+	border: 1px #FFF solid;
+	cursor: move;
+	background: 0 0;
+	filter: alpha(opacity = 100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1
+}
+
+#upImgView #picMask td#pO #pC {
+	position: relative;
+	width: 100%;
+	height: 100%
+}
+
+#upImgView #picMask td#pO #pI {
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	filter: alpha(opacity = 0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0
+}
+
+#minpic {
+	float: left
+}
+
+#minpic .img_show {
+	margin: 15px 5px;
+	position: relative;
+	overflow: hidden
+}
+
+#minpic .minpic1 {
+	height: 120px;
+	width: 120px
+}
+
+#minpic .minpic2 {
+	height: 50px;
+	width: 50px
+}
+
+#minpic .minpic3 {
+	height: 30px;
+	width: 30px
+}
+
+#minpic .imgmin {
+	position: absolute
+}

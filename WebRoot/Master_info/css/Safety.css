@@ -1,0 +1,236 @@
+.safety-status-view em {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.resendBtn, .setMobileMod .getSecurityCodeBtn, .resendBtn:hover,
+	.safety-article-methodsItem {
+	color: #09C
+}
+
+.safety-article-status {
+	color: #F05030
+}
+
+.safety .safety-safeLevel, .safety-question, .safety-form-row {
+	color: #6A6666
+}
+
+.safety .safety-successItem, .safety-article-notice,
+	.safety-form-passBox {
+	color: #9A9999
+}
+
+.safety, .safety-question, .safety-form, .safety-article-otherMethods {
+	font-family: Arial, Simsun
+}
+
+.submitBtn, .safety-article-status, .safety-article-notice,
+	.setMobileMod .safety-currentMobile {
+	font-family: Arial, 'Microsoft Yahei'
+}
+
+.resendBtn, .setMobileMod .getSecurityCodeBtn, .submitBtn {
+	margin-right: 5px
+}
+
+.resendBtn, .setMobileMod .getSecurityCodeBtn {
+	font-size: 12px
+}
+
+.submitBtn {
+	font-size: 16px
+}
+
+.safety-status-view em {
+	margin-left: 1px;
+	width: 30px;
+	height: 8px;
+	overflow: hidden;
+	background-color: #DDDADA
+}
+
+.safety-status-view .safety-status-span {
+	background-color: #F05030
+}
+
+.safety .safety-avator {
+	position: relative;
+	margin: 5px 20px 15px 0;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%
+}
+
+.safety .safety-basicInfo {
+	width: 710px
+}
+
+.safety .safety-welcome {
+	padding-bottom: 25px;
+	font: 16px 'Microsoft Yahei'
+}
+
+.safety .safety-safeLevel {
+	line-height: 24px
+}
+
+.safety .safety-passLevel {
+	padding: 0 20px 0 5px
+}
+
+.safety .safety-successList {
+	margin: 15px 0 0 -8px;
+	line-height: 30px
+}
+
+.safety .safety-successList .icon-mail, .safety .safety-successList .icon-phone,
+	.safety .safety-successList .icon-pass {
+	vertical-align: top;
+	*vertical-align: middle
+}
+
+.safety .safety-successItem {
+	padding-right: 40px
+}
+
+.safety .safety-module {
+	padding: 0
+}
+
+.safety .safety-section {
+	padding: 30px 25px;
+	border-bottom: 1px solid #F6F3F3;
+	line-height: 30px
+}
+
+.safety .safety-section:last-child {
+	border: 0
+}
+
+.safety .icon-ok, .safety .icon-warning, .safety .safety-name, .safety .safety-status
+	{
+	margin-right: 15px
+}
+
+.safety .safety-name {
+	width: 135px;
+	font-size: 14px
+}
+
+.safety .safety-status {
+	width: 505px
+}
+
+.safety .safety-operate {
+	width: 105px;
+	text-align: center
+}
+
+.safety-question {
+	margin-top: 55px;
+	padding-top: 15px;
+	border-top: 1px dotted #DDDADA;
+	line-height: 20px
+}
+
+.safety-form {
+	padding-top: 30px
+}
+
+.safety-form-row {
+	padding: 15px 0;
+	line-height: 30px
+}
+
+.safety-form-label {
+	margin-right: 15px;
+	width: 215px;
+	text-align: right
+}
+
+.safety-form-span {
+	width: 600px
+}
+
+.safety-form-span .resendBtn, .safety-form-span .setMobileMod .getSecurityCodeBtn,
+	.setMobileMod .safety-form-span .getSecurityCodeBtn {
+	margin-right: 10px
+}
+
+.safety-form-email, .safety-form-code, .safety-form-reloadCode {
+	margin-right: 8px
+}
+
+.safety-form-email {
+	width: 186px
+}
+
+.safety-form-code {
+	width: 86px
+}
+
+.safety-form-reloadCode {
+	margin: 0 18px 0 8px
+}
+
+.safety-article {
+	padding-top: 45px;
+	min-height: 170px;
+	_height: 170px;
+	line-height: 30px;
+	text-align: center
+}
+
+.safety-article-step {
+	font-size: 20px
+}
+
+.safety-article-step .icon-ok, .safety-article-step .icon-warning {
+	margin-right: 10px
+}
+
+.safety-article-status {
+	padding: 10px 0 15px;
+	font-size: 16px
+}
+
+.safety-article-notice {
+	font-size: 14px
+}
+
+.safety-article-otherMethods {
+	padding-top: 40px
+}
+
+.safety-article-methodsItem {
+	margin: 0 12px
+}
+
+.setMobileMod .getSecurityCodeBtn {
+	width: 88px
+}
+
+.setMobileMod .safety-article {
+	padding-top: 70px
+}
+
+.setMobileMod .safety-currentMobile {
+	font-size: 16px
+}
+
+.setMobileMod .safety-article-otherMethods {
+	padding-top: 0
+}
+
+.setMobileMod .safety-article-methodsItem {
+	margin: 0 25px 0 0
+}
+
+.safety-form-passBox {
+	margin-bottom: -20px;
+	width: 100%;
+	overflow: hidden
+}

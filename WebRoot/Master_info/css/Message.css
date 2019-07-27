@@ -1,0 +1,196 @@
+.sendMsg-table .sendMsg-type, .sendMsg-table .sendMsg-val,
+	.sendMsg-table .sendMsg-span, .sendMsg-table .textarea, .sendMsg-table .sendMsg-contacts-items
+	{
+	display: inline;
+	float: left
+}
+
+.sendMsg-table .sendMsg-inputNotice {
+	display: inline;
+	float: right
+}
+
+.sysMsg .sysMsgInfo a {
+	color: #09C
+}
+
+.sysMsg .span-line {
+	color: #9A9999
+}
+
+.sysMsg {
+	font-family: Arial, Simsun
+}
+
+.sysMsg .replySection .replyMsgTip {
+	width: 0;
+	height: 0;
+	overflow: hidden
+}
+
+.sysMsg .sendMsgBtn {
+	margin-top: 4px
+}
+
+.sysMsg .sysMsgItem {
+	padding: 5px 0;
+	border-bottom: 1px solid #f6f3f3
+}
+
+.sysMsg .strong {
+	font-weight: 700
+}
+
+.sysMsg .checkbox {
+	margin: 23px 10px 0
+}
+
+.sysMsg .sysMsgLogo {
+	margin: 5px 10px 0 0
+}
+
+.sysMsg .sysMsgInfo {
+	width: 737px;
+	line-height: 22px
+}
+
+.sysMsg .sysMsgInfo a:hover {
+	text-decoration: underline
+}
+
+.sysMsg .sysMsgImg {
+	padding: 5px 0
+}
+
+.sysMsg .span-line {
+	padding: 0 10px
+}
+
+.sysMsg .noData {
+	line-height: 60px;
+	text-align: center
+}
+
+.sysMsg .sysMsgOperate {
+	padding: 15px 0
+}
+
+.sysMsg .sysMsgOperate .checkbox {
+	margin-top: 0
+}
+
+.sysMsg .shopMsgList .sysMsgInfo {
+	width: 797px
+}
+
+.sysMsg .replySection {
+	position: relative;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #F6F3F3
+}
+
+.sysMsg .replySection .textarea {
+	margin-bottom: 5px;
+	width: 703px;
+	height: 60px
+}
+
+.sysMsg .replySection .replyMsgBtn {
+	margin-left: 10px
+}
+
+.sysMsg .replySection .replyMsgBtn, .sysMsg .replySection .replyMsgBtn:hover
+	{
+	color: #fff;
+	text-decoration: none
+}
+
+.sysMsg .replySection .replyMsgTip {
+	border: 6px solid transparent;
+	border-bottom-color: #F6F3F3;
+	position: absolute;
+	right: 52px;
+	top: -12px
+}
+
+.sendMsg-table {
+	font-size: 12px;
+	line-height: 30px;
+	color: #6A6666
+}
+
+.sendMsg-table .sendMsg-row {
+	position: relative;
+	padding: 5px 0
+}
+
+.sendMsg-table .sendMsg-type {
+	padding-right: 5px;
+	width: 50px;
+	min-height: 30px;
+	_height: 30px;
+	text-align: right
+}
+
+.sendMsg-table .sendMsg-val {
+	min-width: 340px;
+	_width: 340px
+}
+
+.sendMsg-table .sendMsg-span {
+	margin-right: 10px
+}
+
+.sendMsg-table .textarea {
+	width: 326px
+}
+
+.sendMsg-table .button-light-ultra-small {
+	margin-right: 10px
+}
+
+.sendMsg-table .sendMsg-inputNotice {
+	line-height: 24px;
+	color: #9A9999
+}
+
+.sendMsg-table .sendMsg-contacts {
+	position: absolute;
+	left: 55px;
+	top: 100%;
+	margin-top: -6px;
+	width: 338px;
+	background-color: #fff;
+	border: 1px solid #DDDADA
+}
+
+.sendMsg-table .sendMsg-cntacts-head {
+	padding: 0 15px;
+	height: 36px;
+	border-bottom: 1px solid #DDDADA;
+	font-weight: 700;
+	line-height: 36px
+}
+
+.sendMsg-table .sendMsg-cntacts-body {
+	padding: 5px 10px;
+	height: 103px;
+	overflow-y: auto
+}
+
+.sendMsg-table .sendMsg-cntacts-foot {
+	padding: 10px 0;
+	text-align: center
+}
+
+.sendMsg-table .sendMsg-contacts-items {
+	width: 33.3333%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.sendMsg-table .sendMsg-contacts-span {
+	padding: 0 5px
+}

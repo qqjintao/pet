@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.ssh.model.ProductMessages" table="ProductMessages">
+		<!-- 配置主键 -->
+		<id name="id" column="id">
+			<generator class="native" /> <!-- 配置的是自动增长标识列 -->
+		</id>
+		<property name="ProductMessages_code" column="ProductMessages_code"/>
+		<property name="Mobile_phone" column="Mobile_phone"/>	
+		<property name="Product_code" column="Product_code"/>
+		<property name="ProductMessages_title" column="ProductMessages_title"/>
+		<property name="ProductMessages_context" column="ProductMessages_context"/>
+		<property name="ProductMessages_time" column="ProductMessages_time"/>
+	</class>
+</hibernate-mapping>

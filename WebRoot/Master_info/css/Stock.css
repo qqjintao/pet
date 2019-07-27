@@ -1,0 +1,29 @@
+.stockNotice .cg-col-1 {
+	width: 485px
+}
+
+.stockNotice .cg-col-2 {
+	width: 100px
+}
+
+.stockNotice .cg-col-3 {
+	width: 120px
+}
+
+.stockNotice .goods-image {
+	width: 118px;
+	height: 118px
+}
+
+.stockNotice .goods-info {
+	width: 324px
+}
+
+.stockNotice .addCartBtn {
+	margin: 5px 0;
+	width: 82px
+}
+
+.stockNotice .addCartBtn a, .stockNotice .addCartBtn a:hover {
+	color: #fff
+}

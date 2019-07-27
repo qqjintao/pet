@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- 配置数据库连接 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/Pet_website?useUnicode=true;characterEncoding=UTF-8;</property>
+		<property name="connection.username">sa</property>		<!-- 指定数据库用户名 -->
+		<property name="connection.password">79687968</property>		<!-- 指定数据库密码 -->
+		<property name="hibernate.jdbc.use_scrollable_resultset">false</property> <!-- 分页查询一定要设置该参数 -->
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<!-- 配置映射文件 -->
+		<mapping resource="com/ssh/model/Registry.hbm.xml"/>
+		<mapping resource="com/ssh/model/Master_table.hbm.xml"/>
+		<mapping resource="com/ssh/model/Location_table.hbm.xml"/>
+		<mapping resource="com/ssh/model/Finance.hbm.xml"/>	
+		<mapping resource="com/ssh/model/BroadHeading.hbm.xml"/>
+		<mapping resource="com/ssh/model/Subclass.hbm.xml"/>
+		<mapping resource="com/ssh/model/Store.hbm.xml"/>
+		<mapping resource="com/ssh/model/ServiceQQ.hbm.xml"/>
+		<mapping resource="com/ssh/model/Product.hbm.xml"/>
+		<mapping resource="com/ssh/model/ProductSuit.hbm.xml"/>
+		<mapping resource="com/ssh/model/ProductPicture.hbm.xml"/>
+		<mapping resource="com/ssh/model/StoreJurisdiction.hbm.xml" />
+		<mapping resource="com/ssh/model/StoreAccount.hbm.xml"/>
+		<mapping resource="com/ssh/model/PostalService.hbm.xml"/>
+		<mapping resource="com/ssh/model/DeliverGoods.hbm.xml"/>
+		<mapping resource="com/ssh/model/PaymentService.hbm.xml"/>
+		<mapping resource="com/ssh/model/Payment.hbm.xml"/>
+		<mapping resource="com/ssh/model/StroeAnnouncement.hbm.xml"/>
+		<mapping resource="com/ssh/model/OrderProduct.hbm.xml"/>
+		<mapping resource="com/ssh/model/ProductMessages.hbm.xml"/>
+		<mapping resource="com/ssh/model/Forum.hbm.xml"/>
+		<mapping resource="com/ssh/model/ForumMessages.hbm.xml"/>
+		<mapping resource="com/ssh/model/Indent.hbm.xml"/>
+		<mapping resource="com/ssh/model/IndentProduct.hbm.xml"/>
+		<mapping resource="com/ssh/model/Collect.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,493 @@
+.getVoucherDialog .getVoucherDialog-text:after {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	line-height: 0;
+	content: '\20'
+}
+
+.getVoucherDialog .getVoucherDialog-text {
+	*display: table;
+	*zoom: 1
+}
+
+.getVoucherDialog dt, .getVoucherDialog dd, .getVoucherDialog .getVoucherDialog-edit-area,
+	.getVoucherDialog .getVoucherDialog-tel, .getVoucherDialog .getVoucherDialog-oper,
+	.reviews-dialog .reviews-upItem, .reviews-dialog .reviews-upBtn {
+	display: inline;
+	float: left
+}
+
+.logistic {
+	text-align: left
+}
+
+.logistic {
+	display: none
+}
+
+.service-order .goods-name {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.reviews-dialog .ui-dialog-statusbar {
+	color: #F05030
+}
+
+.lg-head, .showVoucher-notice {
+	color: #6A6666
+}
+
+.logistic {
+	position: absolute;
+	top: 28px;
+	left: -100px;
+	z-index: 2;
+	padding: 15px;
+	width: 230px;
+	background: #fff;
+	border: 1px solid #F05030;
+	line-height: 20px
+}
+
+.logistic .icon-lg-tip {
+	position: absolute;
+	top: -11px;
+	left: 50%;
+	margin-left: -8px;
+	width: 16px;
+	height: 16px;
+	background-position: -187px -201px
+}
+
+.lg-head {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #DDDADA;
+	line-height: 30px
+}
+
+.lg-item {
+	position: relative;
+	padding: 5px 0 0 15px
+}
+
+.lg-circle {
+	position: absolute;
+	left: 2px;
+	top: 5px
+}
+
+.no-lg-info {
+	padding: 20px 0 15px
+}
+
+.showVoucher-table .ui-table {
+	margin-top: 10px;
+	background-color: #FFD6A6
+}
+
+.showVoucher-table .cg-col-1 {
+	width: 110px
+}
+
+.showVoucher-table .cg-col-2 {
+	width: 75px
+}
+
+.showVoucher-table .cg-col-3 {
+	width: 220px
+}
+
+.showVoucher-table .ui-table-span {
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+.showVoucher-notice {
+	padding: 15px 0 5px;
+	line-height: 22px
+}
+
+.getVoucherDialog dt, .getVoucherDialog .getVoucherDialog-tel,
+	.getVoucherDialog .getVoucherDialog-oper {
+	font: 16px/50px 'Microsoft Yahei'
+}
+
+.getVoucherDialog dt {
+	width: 135px
+}
+
+.getVoucherDialog dd {
+	width: 275px
+}
+
+.getVoucherDialog .getVoucherDialog-edit-area {
+	display: none;
+	padding: 10px 0
+}
+
+.getVoucherDialog .getVoucherDialog-edit-area .form-error,
+	.getVoucherDialog .getVoucherDialog-edit-area .input {
+	margin-bottom: 10px
+}
+
+.getVoucherDialog .getVoucherDialog-edit-area .button-light-normal {
+	margin-right: 10px
+}
+
+.getVoucherDialog .getVoucherDialog-tel {
+	font-size: 20px
+}
+
+.getVoucherDialog .getVoucherDialog-oper {
+	margin-left: 5px;
+	font-size: 14px
+}
+
+.reviews-dialog .ui-dialog-footer {
+	position: relative
+}
+
+.reviews-dialog .ui-dialog-statusbar {
+	position: absolute;
+	left: 270px;
+	top: 15px
+}
+
+.reviews-dialog .ui-dialog-button {
+	float: left;
+	padding-left: 80px;
+	text-align: left
+}
+
+.reviews-dialog .reviews-head {
+	padding-bottom: 10px;
+	font-size: 16px
+}
+
+.reviews-dialog .reviews-row {
+	padding: 5px 0
+}
+
+.reviews-dialog .reviews-cate {
+	width: 85px;
+	text-align: right
+}
+
+.reviews-dialog .reviews-section {
+	width: 670px
+}
+
+.reviews-dialog .reviews-tag {
+	margin: 0 10px 5px 0;
+	min-width: 85px;
+	_width: 85px;
+	white-space: nowrap
+}
+
+.reviews-dialog .reviews-tag .checkbox {
+	margin-right: 3px;
+	cursor: pointer
+}
+
+.reviews-dialog .textarea {
+	width: 650px
+}
+
+.reviews-dialog .reviews-waiter {
+	margin-right: 20px;
+	text-align: center
+}
+
+.reviews-dialog .reviews-waiter-photo {
+	display: block;
+	margin-bottom: 5px;
+	width: 135px;
+	height: 180px
+}
+
+.reviews-dialog .reviews-upload {
+	padding: 10px 0 5px
+}
+
+.reviews-dialog .reviews-upItem, .reviews-dialog .reviews-upBtn {
+	position: relative;
+	margin-right: 15px;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #DDDADA
+}
+
+.reviews-dialog .reviews-upItem:hover .reviews-delete, .reviews-dialog .reviews-upBtn:hover .reviews-delete
+	{
+	display: block
+}
+
+.reviews-dialog .reviews-upBtn {
+	text-align: center;
+	line-height: 70px
+}
+
+.reviews-dialog .reviews-upBtn .reviews-upFile {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	cursor: pointer
+}
+
+.reviews-dialog .reviews-delete {
+	display: none;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	font-size: 29px;
+	color: #6A6666;
+	cursor: pointer;
+	line-height: 1
+}
+
+.reviews-dialog .reviews-delete:hover {
+	color: #444
+}
+
+.reviews-dialog .icon-star-gray, .reviews-dialog .icon-star-light,
+	.reviews-dialog .choose-star {
+	width: 18px;
+	height: 18px;
+	cursor: pointer
+}
+
+.reviews-dialog .icon-star-gray {
+	background-position: -246px -245px
+}
+
+.reviews-dialog .icon-star-light, .reviews-dialog .choose-star {
+	background-position: -286px -246px
+}
+
+.buyAgainBtn {
+	margin-top: 5px
+}
+
+.orderState-select {
+	width: 78px;
+	height: 22px
+}
+
+.serviceOrder .cg-col-1 {
+	width: 160px
+}
+
+.serviceOrder .cg-col-2 {
+	width: 355px
+}
+
+.serviceOrder .cg-col-3, .serviceOrder .cg-col-4 {
+	width: 105px
+}
+
+.serviceOrder .cg-col-5 {
+	width: 120px
+}
+
+.serviceOrder .goods-info {
+	width: 222px
+}
+
+.serviceOrder .goods-image {
+	width: 90px;
+	height: 60px
+}
+
+.shopOrder .cg-col-1 {
+	width: 130px
+}
+
+.shopOrder .cg-col-2 {
+	width: 315px
+}
+
+.shopOrder .cg-col-3, .shopOrder .cg-col-4, .shopOrder .cg-col-5 {
+	width: 90px
+}
+
+.service-order .ui-tab-head {
+	margin-bottom: 0
+}
+
+.service-order .ui-table {
+	margin-bottom: 10px
+}
+
+.service-order .cg-col-1 {
+	width: 295px
+}
+
+.service-order .cg-col-2, .service-order .cg-col-3, .service-order .cg-col-5
+	{
+	width: 80px
+}
+
+.service-order .cg-col-4 {
+	width: 90px
+}
+
+.service-order .cg-col-6 {
+	width: 110px
+}
+
+.service-order .ui-table-head .ui-table-span {
+	padding-top: 0;
+	padding-bottom: 0
+}
+
+.service-order .goods-item {
+	padding-left: 0;
+	padding-right: 0
+}
+
+.service-order .goods-info {
+	width: 172px
+}
+
+.service-order .goods-image {
+	width: 90px;
+	height: 60px
+}
+
+.showLogisticButton {
+	position: relative;
+	z-index: 10
+}
+
+.showLogisticButton:hover {
+	z-index: 15
+}
+
+.showLogisticButton:hover .logistic {
+	display: block
+}
+
+.confirm-receipt-Btn {
+	font-size: 12px;
+	color: #fff;
+	background-color: #ff5e3e;
+	border: 1px solid #ff5e3e;
+	margin-top: 5px
+}
+
+.confirm-receipt-Btn:hover {
+	color: #fff;
+	background-color: #ff5e3e
+}
+
+.deliver_mask {
+	display: none;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, .5)
+}
+
+.deliver_mask .sure_box {
+	padding: 8px 0 25px;
+	width: 340px;
+	height: 136px;
+	position: absolute;
+	left: 50%;
+	margin-left: -154px;
+	top: 29%;
+	background-color: #fff
+}
+
+.deliver_mask .sure_box .success {
+	display: none
+}
+
+.deliver_mask .sure_box .success i, .deliver_mask .sure_box .deliver i {
+	position: absolute;
+	right: 0;
+	top: -1px;
+	width: 40px;
+	height: 40px;
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer
+}
+
+.deliver_mask .sure_box .success h3 {
+	margin: 21px 0 10px;
+	font-size: 17px;
+	color: #444;
+	font-weight: 400;
+	text-align: center
+}
+
+.deliver_mask .sure_box .success h3 em {
+	background: url(/userInfo/static/global/images/src/userinfo/sele.png)
+		no-repeat center center;
+	margin-right: 8px
+}
+
+.deliver_mask .sure_box .success p {
+	margin-bottom: 30px;
+	text-align: center
+}
+
+.deliver_mask .sure_box .deliver p {
+	margin-top: 40px;
+	text-align: center;
+	color: #3a3333;
+	font-size: 14px;
+	margin-bottom: 27px
+}
+
+.deliver_mask .sure_box .success span {
+	display: block;
+	width: 70px;
+	height: 28px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	line-height: 28px;
+	background-color: #f05030
+}
+
+.deliver_mask .sure_box .deliver div {
+	width: 165px;
+	margin: 0 auto
+}
+
+.deliver_mask .sure_box .deliver span {
+	float: left;
+	margin-right: 10px;
+	width: 70px;
+	height: 30px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px
+}
+
+.deliver_mask .sure_box .deliver .sure {
+	background-color: #f05030;
+	color: #fff;
+	border: 1px solid #e04020
+}
+
+.deliver_mask .sure_box .deliver .cancel {
+	background-color: #f6f3f3;
+	color: #6a6666;
+	border: 1px solid #dddada
+}

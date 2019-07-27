@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.ssh.model.IndentProduct" table="IndentProduct">
+		<!-- 配置主键 -->
+		<id name="id" column="id">
+			<generator class="native" /> <!-- 配置的是自动增长标识列 -->
+		</id>
+		<property name="Indent_code" column="Indent_code"/>
+		<property name="Product_code" column="Product_code"/>	
+		<property name="ProductSuitId" column="ProductSuitId"/>
+		<property name="Product_number" column="Product_number"/>
+		<property name="Product_price" column="Product_price"/>
+		<property name="Indent_state" column="Indent_state"/>
+	</class>
+</hibernate-mapping>
